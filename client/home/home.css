@@ -1,0 +1,65 @@
+/*
+body{
+  margin: 0px;
+}
+
+.post{
+  border: 1px solid black;
+  padding: 4px;
+}
+
+#title {
+  border: none;
+  height: 25px;
+  border-bottom: 2px solid black;
+}
+
+#body {
+  border: none;
+}
+
+#postWriter{
+  position: fixed;
+  height: 50px;
+  background: red;
+  width: 100%;
+  border: 1px solid black;
+  z-index: 99;
+  bottom: 0px;
+}
+
+#hide:checked + #postWriter{
+  display: none;
+}
+
+#hide{
+  
+}
+
+#postWriter input{
+  width: 100%;
+  outline: none;
+}
+*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
